@@ -1,11 +1,11 @@
 
 # 🌐 Proyecto Web Personal con Django
 
-Este es mi **primer proyecto web personal** realizado con **Python y Django**, con el objetivo de integrar y reforzar los conocimientos fundamentales de desarrollo web, entornos virtuales, bases de datos y estructuración de proyectos.
+Este es mi **primer proyecto web personal** realizado con **Python y Django**, se encuentra desplegado en: https://maurolaf.pythonanywhere.com/portfolio/ con el objetivo de integrar y reforzar los conocimientos fundamentales de desarrollo web, entornos virtuales, bases de datos y estructuración de proyectos.
 
 ## 🛠 Tecnologías utilizadas
 
-- **Python 3.11**
+- **Python 3.13**
 - **Django 5.2.1**
 - **HTML básico**
 - **Virtualenv / Pipenv** (gestión de entorno)
