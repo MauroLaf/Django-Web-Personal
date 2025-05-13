@@ -1,0 +1,26 @@
+{% extends 'core/base.html'%}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">  
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg" alt="">
+</div>
+<div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Mauro J. Lafuente</h2>   
+    <p>Soy desarrollador backend con formación en administración de bases de datos y experiencia práctica en el desarrollo de aplicaciones utilizando Python y C#. Me especializo en la creación de APIs REST y soluciones eficientes con frameworks como <strong>Django</strong>, <strong>Flask</strong> y <strong>.NET con C#</strong>. Trabajo aplicando principios de programación orientada a objetos y buenas prácticas de arquitectura como <strong>SOLID</strong>, lo que me permite construir proyectos escalables y mantenibles.</p>
+
+<p>También tengo experiencia en el uso de tecnologías como <strong>ADO.NET</strong>, <strong>Entity Framework Core</strong> y <strong>LINQ</strong> para la gestión de datos. He trabajado con bases de datos como <strong>MySQL</strong>, <strong>SQL Server</strong> y <strong>Oracle</strong>, aplicando criterios de diseño lógico, normalización y optimización de consultas. Además, utilizo herramientas como <strong>Swagger</strong> para documentar y probar APIs de manera profesional.</p>
+
+</div>
+</div>
+{% endblock %}
+

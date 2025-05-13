@@ -1,0 +1,14 @@
+{% extends 'core/base.html'%} 
+
+{% block title %}Portada{% endblock %}
+
+<!--recordar que antes de cargar un fichero static hay que cargarlo en el template, en la memoria, ademas dejar en una sola linea porque interpreta el espacio entre tags-->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Mauro J. Lafuente</h1>
+<span class="subheading">Programador Backend</span>
+{% endblock %}
+
+{% block content %}
+{% endblock %}
