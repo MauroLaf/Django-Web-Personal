@@ -108,5 +108,4 @@ Este proyecto fue creado desde la terminal, con una fuerte práctica en Visual S
 
 **Mauro Lafuente**  
 Estudiante de desarrollo web y backend
-"# TU_REPOSITORIO" 
 "# Web-Personal" 
